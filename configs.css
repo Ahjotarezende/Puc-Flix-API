@@ -1,0 +1,167 @@
+:root {
+    --main-bg-color: #808080;
+    --main-bg2-color: rgb(0, 0, 0);
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-brand {
+    color: #dc3545;
+}
+p, h1, h2, h3, h4, h5, b{
+    color: #dc3545;
+}
+
+.titulos h1 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+}
+
+body, ul, li, p{
+    background-color: var(--main-bg2-color);
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+c, a{
+    color: white;
+}
+.dropdown-item{
+    background-color: #dc3545;
+    color: white;
+}
+
+.corbgbotao {
+    background-color: #dc3545;
+}
+.cortextobotao, .dropdown-menu {
+    background-color:#dc3545 !important;
+    color: rgb(255, 255, 255);
+}
+.navbarestilo {
+    background-color: rgb(0, 0, 0) !important; 
+}
+
+p1>b {
+    font-size: 1.4em;
+}
+.fa{
+    color: #dc3545;
+}
+#user{
+    color: white;
+}
+
+#dropdownMenuLink{
+    color: white !important;
+}
+
+.boxcarrossel h4 {
+    font-size: 0.9em;
+    text-align: justify;
+    text-justify: end;
+}
+
+#formatocarrossel {
+    display: flex;
+}
+
+.infoslider {
+    width: 100%;
+    display: block;
+}
+
+.imgdestaque {
+    max-height: 380px;
+}
+
+.ultimosreviews h3 {
+    font-size: 1.2em;
+}
+
+.ultimosreviews img {
+    padding: 10px;
+}
+
+.ultimosreviews p {
+    font-size: 0.8em;
+    text-align: justify;
+    text-justify: end;
+}
+
+.entrevistas p {
+    font-size: 0.8em;
+}
+
+
+.novidades {
+    padding: 20px;
+}
+
+.novidades p {
+    font-size: 0.8em;
+    padding: 15px 0 15px 0;
+    text-align: justify;
+    text-justify: end;
+}
+
+.novidades button {
+    padding: 0 20px;
+    margin: 0 5px;
+}
+
+
+.sobre h4 {
+    font-size: 0.8em;
+    text-align: justify;
+    text-justify: end;
+}
+
+.redessociais {
+    font-size: 0.9em;
+}
+
+.redessociais i {
+    padding-right: 20px;
+}
+
+
+.rodape {
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+.rodape h4 {
+    font-size: 0.7em;
+}
+
+
+@media screen and (max-width:500px) {
+    .boxcarrossel h4 {
+        padding: 0 0 10px 0;
+    }
+    .cardreview {
+        padding: 0 0 20px 0;
+    } 
+    .novidades img {
+        padding: 0 0 20px 0;
+    }
+    .ultimosreviews{
+        display: none;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:990px) {
+    .boxcarrossel h4 {
+        padding: 0 0 8px 0;
+    }
+    .boxcarrossel iframe {
+        height: 294px;
+    }
+    .cardreview {
+        padding: 0 0 10px 0;
+    } 
+}
